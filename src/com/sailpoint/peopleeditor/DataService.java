@@ -13,8 +13,8 @@ public class DataService {
     private  Connection con;
     private  final String driver ="com.mysql.jdbc.Driver";
     private  final String connectionString = "jdbc:mysql://localhost/peopleEditor";
-    private  final String user = "root";
-    private  final String password = "IBEr00t!";
+    private  final String user = "";
+    private  final String password = "";
     private String insertSQL = "INSERT INTO PERSON (firstName, lastName, location, phoneNumber) VALUES (?,?,?,?)";
     private String updateSQl = "UPDATE Person SET";
     private String deleteSQL = "DELETE FROM Person WHERE id=";
